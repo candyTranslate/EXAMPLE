@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from candyApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.main, name='main'),
+    path('implementation', views.implementation, name='implementation'),
+    path('contact', views.contact, name='contact'),
 ]

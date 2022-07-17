@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+    {% endblock head %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+</header>
+    <nav>
+        <a href="{% url "main" %}">Main Page</a>
+        <a href="{% url "implementation" %}">Implementation</a>
+        <a href="{% url "contact" %}">Contact</a>
+    </nav>
+</header>
+{% block body %}
+{% endblock body %}
+</body>
+</html>

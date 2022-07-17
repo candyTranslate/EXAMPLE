@@ -1,0 +1,17 @@
+html{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+nav{
+    text-align: center;
+    background-color:darkgray;
+    margin-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 30px 40px 10px 40px
+}
