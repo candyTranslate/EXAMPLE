@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 
 {% block head %}    
-    <title>Contact page</title>
-    <meta name="description" content="Contact information">
+    <title>{{contact_title}}</title>
+    <meta name="description" content="{{contact_description}}">
 {% endblock head %}
 
 {% block body %}
-    <h1> Contact us</h1>
+    <h1> {{contact_subject}}</h1>
     <p>
-        If you need support please use this email for contact: 
+        {{contact_info}} 
         <a href = "mailto: info@candytranslate.com">Candy Translate Email</a>
     </p>
 {% endblock body %}

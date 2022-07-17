@@ -1,14 +1,14 @@
 {% extends 'base.html' %}
 
 {% block head %}    
-    <title>Translations framework for Django</title>
-    <meta name="description" content="This is just an example for multi-language website">
+    <title>{{home_title}}</title>
+    <meta name="description" content="{{home_description}}">
 {% endblock head %}
 
 {% block body %}
-    <h1> Candy Translate</h1>
+    <h1> {{home_subject}}</h1>
     <p>
-        Easy and quick way to add languages to the website. Free for everyone! Visit the website here: 
+        {{home_info}} 
         <a href="https://candytranslate.com">Candy Translate</a>
     </p>
 {% endblock body %}

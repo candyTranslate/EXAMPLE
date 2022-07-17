@@ -1,20 +1,22 @@
 {% load static %}
 <!doctype html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block head %}
     {% endblock head %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{{languageReferences|safe}}
 </head>
 
 <body>
 </header>
     <nav>
-        <a href="{% url "main" %}">Main Page</a>
-        <a href="{% url "implementation" %}">Implementation</a>
-        <a href="{% url "contact" %}">Contact</a>
+        <a href="{% url candyLink.main %}">{{all_main}}</a>
+        <a href="{% url candyLink.implementation %}">{{all_implementation}}</a>
+        <a href="{% url candyLink.contact %}">{{all_contact}}</a>
+        {{languageMenu|safe}}
     </nav>
 </header>
 {% block body %}

@@ -15,3 +15,8 @@ nav a{
     display: inline-block;
     margin: 30px 40px 10px 40px
 }
+
+#languageMenu{
+    font-size: 1.2em;
+    background-color: antiquewhite;
+}
