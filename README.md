@@ -1,8 +1,8 @@
 This repository contains example of how to use the Candy Translate framework
 
-Candy Translate allows to easily introduce translations to the Django website
+Candy Translate allows to introduce translations to the Django website in easy and fast way.
+All website translations can be managed in excel file
 
-Ffor more information please visit: https://candyTranslate.com
+For more information please visit: https://candyTranslate.com
 
-Candy Translate is easiest and fastest way for managing the content of the website.
-It is also completely free for professional and personal use.
+Candy Translate is completely free for professional and personal use.
